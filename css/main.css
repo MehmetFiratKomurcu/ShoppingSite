@@ -1,0 +1,99 @@
+#logo{
+  width: 200px;
+  height: 65px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 50px;
+}
+.SearchText{
+  width: 250px;
+  margin-top: 15px;
+  height: 35px;
+}
+.SearchButton{
+  color: white;
+  border-radius: 15px;
+  background-color: #0f62c6;
+  text-align: center;
+  padding: 10px 22px;
+  display: inline-block;
+}
+.WrapperUp{
+  background-color: black;
+  height: 65px;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+li{
+  float: right;
+  color:red;
+}
+li a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 22px 16px 10px 16px;
+  margin-bottom: 70px;
+  height: 33px;
+  font-size: 15px;
+}
+.SearchForm{
+  width: 375px;
+  display: inline-block;
+  float: left;
+  height: 65px;
+}
+body{
+  background-color: grey;
+}
+.NavBar{
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 350px;
+  background-color: black;
+  font-size: 20px;
+}
+.NavBar a:hover{
+  background-color: blue;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  padding:0;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -50px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropdown-content a{
+  background-color: #cc851a;
+}
+.dropdown-content a:hover{
+  background-color: #42f4ee !important;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.NavBar a{
+display: block;
+color: white;
+font-size:inherit;
+text-decoration: none;
+padding: 14px 7px;
+text-align: center;
+background-color: black;
+width: 186px;
+}
